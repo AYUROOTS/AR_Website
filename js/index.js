@@ -4,7 +4,7 @@ const audio = document.getElementById("player");
 
 button.addEventListener("click", () => {
   if (audio.paused) {
-    audio.volume = 0.2;
+    audio.volume = 1;
     audio.play();
     icon.classList.remove('fa-volume-up');
     icon.classList.add('fa-volume-mute');
