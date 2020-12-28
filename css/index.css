@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Philosopher_AR2;
+  src: url("../assets/Philosopher_AR2.woff") format("woff");
+}
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 /* Global Styles
   ---------------------------------------------- */
@@ -2005,6 +2010,28 @@ a {
   }
 }
 
+.ar_msg {
+  position: absolute;
+  padding-top: 100px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  z-index: 6;
+  opacity: 1;
+  font-family: Philosopher_AR2;
+}
+
+.ar_title {
+  font-size: 10vw;
+}
+
+.ar_subtitle {
+  font-size: 3vw;
+}
+
 /* Aspect ratio media queries
   ---------------------------------------------- */
 
@@ -2024,7 +2051,7 @@ a {
     position: absolute;
     top: 50%;
   }
-  #sky, #reflection, #sunMask, #landscape, #bottom, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap, .spriteWrap, .volume {
+  #sky, #reflection, #sunMask, #landscape, #bottom, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap, .spriteWrap, .volume, .ar_msg {
     display: none;
   }
 }
@@ -2415,7 +2442,7 @@ a {
     position: absolute;
     top: 50%;
   }
-  #sky, #reflection, #sunMask, #landscape, #bottom, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap, .spriteWrap, .volume {
+  #sky, #reflection, #sunMask, #landscape, #bottom, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap, .spriteWrap, .volume, .ar_msg {
     display: none;
   }
 }
